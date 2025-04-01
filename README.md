@@ -11,8 +11,8 @@ This repository showcases my academic and professional projects, covering Bachel
   - **Version Control**: Git, GitHub.
 - [🎓 Master's Project](./Master_Project)
   - **Algorithm**:  
-  - **Programming Languages**: C, C#, Raspberry Pi.  
-  - **Libraries & Frameworks**: PyTorch, TensorFlow, OpenCV, Scikit-learn, etc.  
+  - **Programming Languages**: C/C++, C#, Raspberry Pi.  
+  - **Libraries & Frameworks**: MuJoCo. 
   - **Development Tools**:  VS Code, Windows, Linux.  
   - **Version Control**: None. 
 - [💼 Internship's Project](./Internship_Project)
@@ -22,7 +22,7 @@ This repository showcases my academic and professional projects, covering Bachel
   - **Development Tools**: Windows.  
   - **Version Control**: None.
 - [📖 Bachelor's Projects](./Bachelor_Projects)
-  - **Algorithm**: BP(Band power), PCA, ICA, SVM, etc.
+  - **Algorithm**: BP(Band Power), PCA, ICA, SVM, etc.
   - **Programming Languages**: MATLAB, C#, C++, Arduino.  
   - **Libraries & Frameworks**: EEGLAB.
   - **Development Tools**: VS Code, Windows.  
