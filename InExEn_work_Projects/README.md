@@ -3,9 +3,9 @@ Here showcases various research projects with detailed documentation on methodol
 
 ## Table of Contents
 
-1. [Lutetia](https://github.com/BelleJohn/Work-Experience-Demos/edit/main/InExEn_work_Projects/README.md#lutetia)
-2. [ReID](https://github.com/BelleJohn/Work-Experience-Demos/edit/main/InExEn_work_Projects/README.md#-reid)
-3. [Swarm Learning](https://github.com/BelleJohn/Work-Experience-Demos/edit/main/InExEn_work_Projects/README.md#-reid)
+1. [Lutetia](#-lutetia)
+2. [ReID](#-reid)
+3. [Swarm Learning](#-swarm-learning)
 
 ---
 
