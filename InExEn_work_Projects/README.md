@@ -1,18 +1,18 @@
 # InExEn Work Projects
 Here showcases various research projects with detailed documentation on methodology, findings, and tools used.
 
-## 📌 Table of Contents
+## Table of Contents
 
-1. Lutetia
-2. ReID
-3. Swarm Learning
+1. [Lutetia](https://github.com/BelleJohn/Work-Experience-Demos/edit/main/InExEn_work_Projects/README.md#lutetia)
+2. [ReID](https://github.com/BelleJohn/Work-Experience-Demos/edit/main/InExEn_work_Projects/README.md#-reid)
+3. [Swarm Learning](https://github.com/BelleJohn/Work-Experience-Demos/edit/main/InExEn_work_Projects/README.md#-reid)
 
 ---
 
-## Lutetia
+## 📌  Lutetia
 
 ### 📚 Description
-Lutetia is a platform designed to improve the classification consistency of colorectal polyps and support physician training. By combining real and synthetic colonoscopy images, Lutetia is promising to facilitate expert consensus collection and provide tailored learning workflows for junior physicians. The project aims to address critical gaps in polyp classification reliability, which directly impacts treatment decisions and patient outcomes.
+Lutetia is a platform designed to improve the classification consistency of colorectal polyps and support physician training. By combining real and synthetic colonoscopy images, Lutetia is promising to facilitate expert consensus and provide tailored learning workflows for junior physicians. The project aims to address critical gaps in polyp classification reliability, which directly impacts treatment decisions and patient outcomes.
 
 ### 🛠 Methodology
 
@@ -34,7 +34,7 @@ Lutetia is a platform designed to improve the classification consistency of colo
 ### 📊 Results & Findings
 
 - Current Status <br/>
-The project is ongoing. Although the full annotation results from senior physicians were not collected before the project handover, the system's infrastructure—training platform, teaching workflow, and model training workflow—has been developed and delivered to the team, enabling smooth project continuation.
+The project is ongoing. Although the full annotation results from senior physicians were not collected before the project handover, the system's infrastructure—training platform, teaching workflow, and model training workflow, which have been developed and delivered to the team, enable smooth project continuation.
 
 - Presentation
   - This work has been presented in the **2024 Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten(DGVS)** conference.
@@ -52,17 +52,22 @@ The project is ongoing. Although the full annotation results from senior physici
 - Data source(s):
   - Real colonoscopy images collected from clinical practice.
   - Public datasets
-- Relevant papers or references
+- Relevant papers or references:
+  - [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+  - [Polyp Morphology: An Interobserver Evaluation for the Paris Classification Among International Experts](https://journals.lww.com/ajg/abstract/2015/01000/polyp_morphology__an_interobserver_evaluation_for.24.aspx)
+  - [Comprehensive review of publicly available colonoscopic imaging databases for artificial intelligence research: availability, accessibility, and usability](https://www.sciencedirect.com/science/article/pii/S0016510722019526)
 
 ### 🚀 Future Work or what if I can start over?
 
-Discuss potential improvements, next steps, and open questions for future research.
+- Complete the collection and analysis of senior physician annotations.
+- Conduct full-scale evaluation comparing AI-trained and traditionally-trained junior physicians.
+- Improve the inpainting model to better handle rare polyp types.
 
 ---
 
 ## 📌 ReID
 
-**Description:**\
+### 📚 Description
 𝐀𝐝𝐯𝐚𝐧𝐜𝐢𝐧𝐠 𝐀𝐈 𝐝𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 for reliable polyp re-identification in endoscopy. 
 
 ### 🛠 Methodology
@@ -97,7 +102,7 @@ Discuss potential improvements, next steps, and open questions for future resear
 
 ## 📌 Swarm Learning
 
-**Description:**\
+### 📚 Description
 This project explores the potential of Swarm Learning for AI-assisted polyp detection and diagnostic enhancement in endoscopic procedures. It aims to improve the performance and robustness of AI models by leveraging distributed learning across multiple institutions, without sharing patient data. Due to confidentiality constraints, I will only present the data cleaning and preprocessing aspects of this project.
 
 ### 🔧 Technologies & Tools Used
