@@ -40,7 +40,7 @@ The project is ongoing. Although the full annotation results from senior physici
   - This work has been presented in the **2024 Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten(DGVS)** conference.
 
 ### 🔧 Technologies & Tools Used
-- **Algorithm:** Classification, Grad-CAM Visualization.
+- **Algorithm & Methods:** Classification, Active Learning, Grad-CAM Visualization.
 - **Programming Languages:** Python.
 - **Libraries & Frameworks:** PyTorch, Numpy, FastAPI, SQLAlchemy.
 - **Development Tools:** VS Code, Bash terminal, Linux, Windows.
@@ -71,18 +71,15 @@ The project is ongoing. Although the full annotation results from senior physici
 𝐀𝐝𝐯𝐚𝐧𝐜𝐢𝐧𝐠 𝐀𝐈 𝐝𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 for reliable polyp re-identification in endoscopy. 
 
 ### 🛠 Methodology
-
-Describe the approach, experimental setup, datasets, models, and analysis techniques used.
+This project aims to develop an automatic report generation system for colonoscopy, focusing on two key functions: **calculating the total number of polyps** and **extracting representative images**. A polyp identification framework was developed using a **Siamese model** combined with **HDBSCAN clustering**.
 
 ### 📊 Results & Findings
 
-- Key insights and discoveries
-- Performance metrics and evaluation
-- Visualizations (if applicable)
+
 - This work was presented at the 2024 Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) and the 2024 United European Gastroenterology (UEG) conferences.
 
 ### 🔧 Technologies & Tools Used
-- **Algorithm:** Clustering, Classification, Segmentation.
+- **Algorithm & Methods:** Clustering, Classification, Segmentation.
 - **Programming Languages:** Python.
 - **Libraries & Frameworks:** PyTorch, SciPy, Numpy, Pandas.
 - **Development Tools:** Jupyter Notebook, VS Code.
@@ -90,13 +87,14 @@ Describe the approach, experimental setup, datasets, models, and analysis techni
 
 ### 📂 Dataset & Resources
 
-- Data source(s)
-- Preprocessing steps
+- Data source(s): The data is a private dataset collected from 7 different examination centers.
+- Preprocessing steps:
+  - Image Cropping
+  - Image Resizing
 - Relevant papers or references 
 
 ### 🚀 Future Work or what if I can start over?
-
-Discuss potential improvements, next steps, and open questions for future research.
+If I could redo the project, I would try implementing real-time detection using [Meta's Segment Anything Model 2 (SAM 2)](https://ai.meta.com/sam2/). I believe it could address the limitations of [Tracktor++](https://motchallenge.net/method/MOT=2418&chl=11) in object tracking, particularly in handling lost objects.
 
 ---
 
@@ -106,7 +104,7 @@ Discuss potential improvements, next steps, and open questions for future resear
 This project explores the potential of Swarm Learning for AI-assisted polyp detection and diagnostic enhancement in endoscopic procedures. It aims to improve the performance and robustness of AI models by leveraging distributed learning across multiple institutions, without sharing patient data. Due to confidentiality constraints, I will only present the data cleaning and preprocessing aspects of this project.
 
 ### 🔧 Technologies & Tools Used
-- **Algorithm:** Binary Classification.
+- **Algorithm & Methods:** Binary Classification.
 - **Programming Languages:** Python.
 - **Libraries & Frameworks:** PyTorch, SciPy.
 - **Development Tools:** Jupyter Notebook, Linux.
