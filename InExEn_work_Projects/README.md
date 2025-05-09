@@ -4,7 +4,7 @@ Here showcases various research projects with detailed documentation on methodol
 ## Table of Contents
 
 1. [Lutetia](#-lutetia)
-2. [ReID](#-reid)
+2. [ReID - Advancing AI Detection for Reliable Polyp Re-identification in Colonoscopy](#-reid---advancing-ai-detection-for-reliable-polyp-re-identification-in-colonoscopy)
 3. [Swarm Learning](#-swarm-learning)
 
 ---
@@ -65,36 +65,66 @@ The project is ongoing. Although the full annotation results from senior physici
 
 ---
 
-## 📌 ReID
+## 📌 ReID - Advancing AI Detection for Reliable Polyp Re-identification in Colonoscopy
 
 ### 📚 Description
-𝐀𝐝𝐯𝐚𝐧𝐜𝐢𝐧𝐠 𝐀𝐈 𝐝𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 for reliable polyp re-identification in endoscopy. 
+This project initially aimed to develop an add-on feature for an automatic colonoscopy report generation system, focusing on two core functions: **calculating the total number of polyps** and **extracting representative images**. To achieve this, a polyp identification framework was designed using a **Siamese neural network** in combination with **HDBSCAN clustering**, enabling the system to match and re-identify polyps across frames.
+
+As a next step, the goal is to extend this capability into a real-time application that can be integrated directly into the colonoscopy workflow, assisting clinicians during examinations by providing immediate feedback on polyp detection and identification.
 
 ### 🛠 Methodology
-This project aims to develop an automatic report generation system for colonoscopy, focusing on two key functions: **calculating the total number of polyps** and **extracting representative images**. A polyp identification framework was developed using a **Siamese model** combined with **HDBSCAN clustering**.
+- Data Collection & Annotation
+  - Collected colonoscopy images from examination videos.
+  - Annotated polyp number and time frame in examinations.
+- Neural Network Design
+  - Developed a classification model capable of extracting key/relevant features of colonoscopy images.
+  - Reduced the distance between similar images while increasing the distance between dissimilar ones in a high-dimensional space.
+- Work Pipeline Design with Clustering Method
+  - Designed a workflow from importing video frames to output a final report.
+  - Evaluated correctness and usability
 
 ### 📊 Results & Findings
+- The pipeline was evaluated on 15 full colonoscopy examinations.
+- Achieved the following average performance metrics:
+  - Adjusted Mutual Information (AMI): 0.89
+  - Accuracy: 0.83
+  - F1 Score: 0.77
+- Key observation: Shorter time gaps between polyps often lead to more similar surrounding structures, resulting in reduced prediction accuracy.
+- Since the automatic report generation system can already detect the timing of interventions and the tools used, this information can be leveraged to improve re-identification using conditional strategies.
+- While the results are promising, they have not yet reached a level suitable for practical application.
 
-
-- This work was presented at the 2024 Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) and the 2024 United European Gastroenterology (UEG) conferences.
+- **This work was presented at the 2024 Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) and the 2024 United European Gastroenterology (UEG) conferences.**
+- **This work was presented at the 2023 Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) and the 2023 United European Gastroenterology (UEG) conferences.**
 
 ### 🔧 Technologies & Tools Used
-- **Algorithm & Methods:** Clustering, Classification, Segmentation.
+- **Algorithm & Methods:** Clustering, Classification, Segmentation, Attention mechanisms, Siamese neural network.
 - **Programming Languages:** Python.
 - **Libraries & Frameworks:** PyTorch, SciPy, Numpy, Pandas.
 - **Development Tools:** Jupyter Notebook, VS Code.
 - **Version Control:** None.
 
 ### 📂 Dataset & Resources
-
 - Data source(s): The data is a private dataset collected from 7 different examination centers.
 - Preprocessing steps:
   - Image Cropping
   - Image Resizing
-- Relevant papers or references 
+- Relevant papers or references
+  - [Assisted documentation as a new focus for artificial intelligence in endoscopy: the precedent of reliable withdrawal time and image reporting](https://pmc.ncbi.nlm.nih.gov/articles/PMC11321719/)
+  - [A deep learning-based system for real-time image reporting during esophagogastroduodenoscopy: a multicenter study](https://pubmed.ncbi.nlm.nih.gov/35272381/)
+  - [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698)
+  - [Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566)
+  - [Person re-identification based on deep learning — An overview](https://www.sciencedirect.com/science/article/abs/pii/S1047320321002765)
+
 
 ### 🚀 Future Work or what if I can start over?
-If I could redo the project, I would try implementing real-time detection using [Meta's Segment Anything Model 2 (SAM 2)](https://ai.meta.com/sam2/). I believe it could address the limitations of [Tracktor++](https://motchallenge.net/method/MOT=2418&chl=11) in object tracking, particularly in handling lost objects.
+
+If I had the opportunity to start the project again, I would:
+
+1) Explore the use of real-time detection by implementing [Meta's Segment Anything Model 2 (SAM 2)](https://ai.meta.com/sam2/), which I believe could help overcome the limitations of Tracktor++, especially in tracking objects that temporarily disappear.
+2) Focus on improving the system’s ability to distinguish individual polyps, considering the challenge that polyps may appear with different shapes from various viewing angles.
+3) Allocate more time to experimenting with advanced segmentation-tracking integration methods to better support real-time performance during colonoscopy.
+
+Before I left the lab, I shared this idea and my work with my colleagues. I believe they are well-equipped to continue developing the technology and push it forward, even in my absence.
 
 ---
 
