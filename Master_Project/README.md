@@ -56,11 +56,11 @@ This study includes two experiments: the **Mapping Experiment** and the **Propri
 
 ⚠️ Operational Limitations
 - Complex virtual button design introduced errors in task timing
-  - Accounted for 9%–26% of total trial time
+  - Accounted for 9.05%–25.91% of total trial time
 
 🔧 System Limitations
 - EMG classifier error rates were high:
-  - Ranged from 41.4% to 62.25%, affecting control reliability
+  - Ranged from 40.6% to 68.9%, affecting control reliability
 - Vibration delays and serial port issues occasionally disrupted EW condition
 
 🌐 Virtual Environment Challenges
