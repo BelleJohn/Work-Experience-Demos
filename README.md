@@ -3,7 +3,7 @@
 This repository showcases my academic and professional projects—from my Bachelor's and Master's studies to internship and work experience—while maintaining confidentiality of previous workplaces and demonstrating my skills.
 
 ## 📌 Table of Contents
-- [🏢 InExEn_work_Projects's Projects](./InExEn_work_Projects)
+- [🏢 InExEn's Projects](./InExEn_work_Projects)
 - [🎓 Master's Project](./Master_Project)
 - [💼 Internship's Project](./Internship_Project)
 - [📖 Bachelor's Projects](./Bachelor_Projects)
